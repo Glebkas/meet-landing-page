@@ -1,0 +1,9 @@
+.separator__number{
+    font-weight: 900;
+    line-height: 1.625;
+    color: #87879D;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    padding: 15px 19px 15px 19px;
+
+}

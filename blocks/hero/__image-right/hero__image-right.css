@@ -1,0 +1,5 @@
+.hero__image-right {
+  background-image: url(../../../images/desktop/image-hero-right.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}

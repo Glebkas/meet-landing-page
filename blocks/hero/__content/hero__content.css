@@ -1,0 +1,8 @@
+.hero__content {
+  max-width: 540px;
+  margin: 2.5rem 5.5rem 0 5.5rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  
+}

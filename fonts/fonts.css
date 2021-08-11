@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "red-hat-display";
+  src: url(../fonts/RedHatDisplay-Medium.woff) format("woff"),
+      url(../fonts/RedHatDisplay-Medium.ttf) format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "red-hat-display";
+  src: url("../fonts/RedHatDisplay-Black.woff") format("woff"),
+    url(../fonts/RedHatDisplay-Black.ttf) format("ttf");
+  font-weight: 900;
+}

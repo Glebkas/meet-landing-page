@@ -1,0 +1,22 @@
+.image-grid__list {
+  list-style: none;
+
+  list-style-type: none;
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  max-width: 1110px;
+  gap: 1.875rem;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+
+
+@media screen and (max-width: 1110px)
+{
+    .image-grid__list{
+        gap: 0.6785rem;
+    }
+
+    
+}

@@ -1,0 +1,14 @@
+.hero{
+    display: grid;
+    grid-template-columns: 25.14% 1fr 25.14%;
+}
+
+@media screen and (max-width: 1440px) {
+    .hero{
+
+    }
+    
+}
+
+
+minmax(150px, 25.14%);

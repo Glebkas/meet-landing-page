@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+    padding: 116px 165px 104px 165px;
+    background-image: url(../../images/desktop/image-footer.jpg);
+    max-height:308px ;
+    background-repeat: no-repeat;
+}

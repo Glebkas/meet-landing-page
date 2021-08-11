@@ -1,0 +1,13 @@
+.image-grid{
+    max-width: 69.375rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1110px)
+{
+    .image-grid{
+        margin: 0 40px;
+    }
+
+    
+}
