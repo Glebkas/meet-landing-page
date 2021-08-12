@@ -1,7 +1,14 @@
-.footer{
-    display: flex;
-    padding: 116px 165px 104px 165px;
-    background-image: url(../../images/desktop/image-footer.jpg);
-    max-height:308px ;
-    background-repeat: no-repeat;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 165px 0 165px;
+  background-image: linear-gradient(
+      rgba(77, 150, 169, 0.9),
+      rgba(77, 150, 169, 0.9)
+    ),
+    url(../../images/desktop/image-footer.jpg);
+  min-height: 19.25rem;
+  background-repeat: no-repeat;
+  width: 77.084%;
+  align-items: center;
 }

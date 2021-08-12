@@ -1,0 +1,11 @@
+.footer__button {
+  font-size: 1rem;
+  line-height: 1.625;
+  font-weight: 900;
+  border: 0;
+  border-radius: 29px;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  color: white; 
+  background-color: #855fb1;
+  
+}

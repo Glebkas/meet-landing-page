@@ -25,8 +25,11 @@
 @import url(../blocks/content/__subtitle/content__subtitle.css);
 @import url(../blocks/content/__title/content__title.css);
 @import url(../blocks/content/__description/content__description.css);
+@import url(../blocks/separator/_position/separator_position_down.css);
+@import url(../blocks/separator/__number/_position/separator__number_position_down.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__download-link/footer__download-link.css);
 @import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__button/_ver/footer__button_ver.css);
