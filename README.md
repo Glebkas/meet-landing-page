@@ -1,4 +1,4 @@
-#  Single price grid component
+#  Meet landing page
 
 ## Table of contents
 
