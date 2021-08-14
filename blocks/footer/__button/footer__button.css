@@ -5,7 +5,18 @@
   border: 0;
   border-radius: 29px;
   padding: 1rem 2.5rem 1rem 2.5rem;
-  color: white; 
+  color: white;
   background-color: #855fb1;
-  
+  transition: background-color 0.5s;
+}
+
+.footer__button:hover {
+  background-color: #b18bdd;
+  transition: background-color 0.5s;
+}
+
+@media screen and (max-width: 990px) {
+  .footer__button {
+    margin-top: 2.5rem;
+  }
 }

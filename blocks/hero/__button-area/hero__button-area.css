@@ -1,4 +1,32 @@
-.hero__button-area{
+.hero__button-area {
+  display: flex;
+  align-self: center;
+  min-width: 23rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1124px) {
+  .hero__button-area {
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 7.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__button-area {
+    flex-direction: row;
+    align-items: center;
+    min-height: unset;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero__button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 7.9rem;
+  }
 }

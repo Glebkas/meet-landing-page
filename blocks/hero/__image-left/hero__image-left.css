@@ -4,3 +4,17 @@
   background-repeat: no-repeat;
 
 }
+
+
+@media screen and (max-width: 768px) {
+  .hero__image-left{
+    background-image: url(../../../images/tablet/image-hero.png);
+    width: 105vw;
+    height:calc(105vw*0.3695) ;
+    overflow: hidden;
+    background-position: center;
+    background-size: contain;
+
+  }
+  
+}

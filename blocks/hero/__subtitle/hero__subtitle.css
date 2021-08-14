@@ -1,9 +1,21 @@
-.hero__subtitle{
-    color: #87879D;
-    font-size: 1.125rem;
-    line-height: 1.444;
-    text-align: center;
-    font-weight: 500;
-    margin: 1.888rem 0 1.777rem 0;
+.hero__subtitle {
+  color: #87879d;
+  font-size: 1.125rem;
+  line-height: 1.444;
+  text-align: center;
+  font-weight: 500;
+  margin: 1.888rem 0 1.777rem 0;
+}
+@media screen and (max-width: 768px) {
+  .hero__subtitle {
+    font-size: 1rem;
+    max-width: 28.5625rem;
+    margin: 1.5rem 0 2rem 0;
+  }
+}
 
+@media screen and (max-width: 425px) {
+  .hero__subtitle {
+    margin: 1.5rem 1.5rem 2rem 1.5rem;
+  }
 }

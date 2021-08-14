@@ -1,8 +1,21 @@
 .hero__content {
-  max-width: 540px;
+  max-width: 33.75rem;
   margin: 2.5rem 5.5rem 0 5.5rem;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  
+}
+
+@media screen and (max-width: 768px) {
+  .hero__content {
+    max-width: 28.5625rem;
+    margin: 4.5rem auto 0 auto;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero__content {
+    margin: 4.5rem 0 0 0;
+  }
 }

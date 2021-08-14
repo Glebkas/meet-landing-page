@@ -1,4 +1,9 @@
 .hero__button_color_purple {
-  margin-right: 1rem;
   background-color: #855fb1;
+  transition: background-color 0.5s;
+}
+
+.hero__button_color_purple:hover {
+  background-color: #b18bdd;
+  transition: background-color 0.5s;
 }

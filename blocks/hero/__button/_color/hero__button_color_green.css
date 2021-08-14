@@ -1,4 +1,9 @@
-.hero__button_color_green{
-    margin-right:1rem ;
-    background-color: #4D96A9;
+.hero__button_color_green {
+  background-color: #4d96a9;
+  transition: background-color 0.5s;
+}
+
+.hero__button_color_green:hover {
+  background-color: #71c0d4;
+  transition: background-color 0.5s;
 }

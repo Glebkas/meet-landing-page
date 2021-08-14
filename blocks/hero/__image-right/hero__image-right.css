@@ -3,3 +3,12 @@
   background-position: left;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 768px) {
+  .hero__image-right {
+    background-image: unset;
+    background-position: unset;
+    background-repeat: unset;
+    display: none;
+  }
+}

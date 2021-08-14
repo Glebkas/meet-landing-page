@@ -1,9 +1,22 @@
-.content__description{
-    font-weight: 500;
-    font-size: 1.125rem;
-    line-height: 1.4444;
-    text-align: center;
-    color: #87879D;
-    margin: 0;
-
+.content__description {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.4444;
+  text-align: center;
+  color: #87879d;
+  margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .content__description {
+      font-size: 1rem;
+      max-width: 35.8125rem;
+  }
+}
+
+@media screen and (max-width: 621px) {
+    .content__description {
+      margin:0 1.5rem 0 1.5rem;
+    }
+  }
+  

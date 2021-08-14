@@ -1,4 +1,11 @@
-.content{
-    max-width: 33.75rem;
-    margin: 5rem auto 4.5rem auto;
+.content {
+  max-width: 33.75rem;
+  margin: 5rem auto 4.5rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 35.8125rem;
+    margin: 5rem auto 5rem auto;
+  }
 }

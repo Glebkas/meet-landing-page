@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 165px 0 165px;
+  padding: 0 10.3125rem 0 10.3125rem;
   background-image: linear-gradient(
       rgba(77, 150, 169, 0.9),
       rgba(77, 150, 169, 0.9)
@@ -9,6 +9,37 @@
     url(../../images/desktop/image-footer.jpg);
   min-height: 19.25rem;
   background-repeat: no-repeat;
-  width: 77.084%;
   align-items: center;
+  background-position: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    padding: 0 5% 0 5%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    flex-direction: column;
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.9),
+        rgba(77, 150, 169, 0.9)
+      ),
+      url(../../images/tablet/image-footer.jpg);
+    background-size: cover;
+    min-height: 26.75rem;
+    justify-content: unset;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    background-image: linear-gradient(
+        rgba(77, 150, 169, 0.9),
+        rgba(77, 150, 169, 0.9)
+      ),
+      url(../../images/mobile/image-footer.jpg);
+  }
 }
