@@ -1,6 +1,6 @@
 .hero{
     display: grid;
-    grid-template-columns: 25.14vw 1fr 25.14vw;
+    grid-template-columns: 25.14% 1fr 25.14%;
     justify-content: center;
     overflow: hidden;
 }
