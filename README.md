@@ -27,7 +27,7 @@ screenshot.JPG
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://glebkas.github.io/meet-landing-page/)
+- Live Site URL: [meet-landing-page](https://glebkas.github.io/meet-landing-page/)
 
 ## My process
 
