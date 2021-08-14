@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1007px) {
   .footer {
     flex-direction: column;
     background-image: linear-gradient(
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 425px) {
   .footer {
     background-image: linear-gradient(
         rgba(77, 150, 169, 0.9),

@@ -8,6 +8,7 @@
   color: white;
   background-color: #855fb1;
   transition: background-color 0.5s;
+  text-decoration: none;
 }
 
 .footer__button:hover {
@@ -15,7 +16,7 @@
   transition: background-color 0.5s;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1007px) {
   .footer__button {
     margin-top: 2.5rem;
   }

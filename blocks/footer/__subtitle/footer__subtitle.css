@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1007px) {
   .footer__subtitle {
     margin-top: 2rem;
     text-align: center;
